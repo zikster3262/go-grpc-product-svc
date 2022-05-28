@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/zikster3262/go-grpc-order-svc/pkg/pb"
 	"github.com/zikster3262/go-grpc-product-svc/pkg/db"
 	"github.com/zikster3262/go-grpc-product-svc/pkg/models"
+	"github.com/zikster3262/go-grpc-product-svc/pkg/pb"
 )
 
 type Server struct {
